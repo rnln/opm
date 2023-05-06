@@ -1,0 +1,14 @@
+[package]
+name = "opm"
+description = "An exhaustive developer environment management tool designed to support multiple programming languages"
+authors = ["Roman Ilin <me@romanilin.me>"]
+homepage = "https://github.com/rnln/opm"
+repository = "https://github.com/rnln/opm"
+license = "MIT"
+version = "0.0.0"
+edition = "2021"
+rust-version = "1.67"
+
+[[bin]]
+name = "opm"
+path = "src/main.rs"
